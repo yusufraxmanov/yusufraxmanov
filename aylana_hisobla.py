@@ -1,6 +1,3 @@
-#Foydalanuvchidan aylaning radiusini qabul qilib olib, 
-#uning radiusini, diametrini, uzunligi va yuzini 
-#lug'at ko'rinishida qaytaruvchi funksiya yozing
 
 def aylana_hisobla(num):
     """Aylana diametri, perimetri va yuzini hisoblovchi funksiya"""
@@ -9,7 +6,7 @@ def aylana_hisobla(num):
           f"Uzunligi - {2*num*3.14}\n"
           f"Yuzi - {3.14*(num**2)}")
 
-aylana_hisobla(36)
+aylana_hisobla()
         
 
 
